@@ -1,0 +1,249 @@
+body {
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.container{
+    margin : 2% 0 2% 0;
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+    
+}
+.container2{
+  
+    display : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+.candidat_image{
+    width : 50%;
+}
+.first_content{
+    margin-right : 0%;
+
+    flex-basis:  37%;
+   
+}
+.second_content{
+    padding-top:8%;
+    margin-left: 0;
+    flex-basis: 40%;
+
+}
+.content{
+  
+    margin : 2% 0 2% 0;
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+}
+.left_content{
+    flex-basis : 45%;
+
+
+}
+.right_content{
+    flex-basis : 35%;
+
+
+}
+ul{
+    list-style: none;
+    padding : 0%;
+
+}
+p{
+    margin : 0;
+    padding: 0;
+}
+
+.competences{
+    width :65%;
+    font-size: 16px;
+    line-height: 195%;
+    
+}
+.little_title{
+    font-weight: bold;
+}
+.logiciels{
+    width :65%;
+    font-size: 16px;
+    line-height: 195%;
+    
+
+}
+.second{
+    margin-left : 6%;
+}
+.centres_interets{
+    line-height: 195%;
+}
+.langues{
+    line-height: 195%;
+}
+.spL{
+    padding-left: 7%;
+}
+.second_title{
+    font-family: 'Raleway Light' !important;
+    font-weight: none !important;
+    font-style: none !important;
+    font-size:30px;
+    color : rgb(7, 50, 99);
+    border-bottom: 1px solid rgb(37, 87, 145) ;
+    border-color:  rgb(37, 87, 145);
+    padding-bottom: 3%;
+    
+}
+.reduction{
+    width : 70%;
+}
+.candidat_informations{
+    line-height: 250%;
+}
+.pre-content{
+    line-height: 190%;
+}
+
+.candidat_name{
+    font-family: 'Raleway Light' !important;
+    font-weight: none;
+    font-style: none ;
+    font-size: 40px;
+}
+.info_title{
+    color :rgb(37, 87, 145)
+}
+@media screen and (max-width : 425px){
+
+        body{
+            font-size: 9px;
+        }
+        .container{
+            justify-content: flex-start;
+            
+        }
+        .content{
+            justify-content: flex-start;
+            margin-left: 3%;
+        }
+        .first_content{
+            margin-right : 0%;
+            
+            margin-left: 4%;
+            flex-basis:  50%;
+           
+        }
+        .second_content{
+            padding-top:8%;
+            margin-left: 0;
+            flex-basis: 35%;
+        
+        }
+        .candidat_name{
+            font-size: 16px;
+        }
+        .second_title{
+            font-size: 16px;
+        }
+        .candidat_image{
+            width : 50%;
+            padding-left: 10%;
+        }
+        .left_content,.right_content{
+            font-size: 9px;
+        }
+        .left_content{
+            flex-basis : 50%;
+    
+           
+        }
+        .right_content{
+            flex-basis: 20%;
+     
+            margin-left : 5%;
+        }
+        .competences{
+            font-size: 9px;
+            padding-left: 0%;
+            margin-left: 0%;
+        }
+        .second_title{
+        font-size: 14px;
+        }
+        .logiciels{
+            font-size: 9px;
+        }
+        .centres_interets{
+            font-size: 9px;
+        }
+        
+    
+    
+}
+@media screen and (max-width : 320){
+
+        body{
+            font-size: 9px;
+        }
+        .container{
+            justify-content: flex-start;
+            
+        }
+        .content{
+            justify-content: flex-start;
+            margin-left: 3%;
+        }
+        .first_content{
+            margin-right : 0%;
+        
+            flex-basis:  20%;
+           
+        }
+        .second_content{
+            padding-top:8%;
+            margin-left: 0;
+            flex-basis: 90%;
+        
+        }
+        .candidat_name{
+            font-size: 16px;
+        }
+        .second_title{
+            font-size: 16px;
+        }
+        .candidat_image{
+            width : 45%;
+            padding-left: 10%;
+        }
+        .left_content,.right_content{
+            font-size: 11px;
+        }
+        .left_content{
+            flex-basis : 38%;
+    
+           
+        }
+        .right_content{
+            flex-basis: 20%;
+     
+            margin-left : 5%;
+        }
+        .competences{
+            font-size: 11px;
+            padding-left: 0%;
+            margin-left: 0%;
+        }
+        .second_title{
+        font-size: 14px;
+        }
+        .logiciels{
+            font-size: 9px;
+        }
+        .centres_interets{
+            font-size: 11px;
+        }
+        
+    
+}
